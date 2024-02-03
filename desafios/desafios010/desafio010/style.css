@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+:root {
+    --cor0: #c5ebd6;
+    --cor1: #83e1ad;
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #1a5c37;
+    --cor5: #063d1e;
+    --fonte0: Arial, Helvetica, sans-serif;
+    --fonte1: 'Bebas Neue', cursive;
+    --fonte2: 'Android', sans-serif;
+}
+
+
+body{
+    font-family: var(--fonte0);
+    background-color: var(--cor1);
+    color: var(--cor0);
+}
+
+header {
+    line-height: 1.5em;
+    margin: 0px;
+    height: 150px;
+    background-color: #3ddc84;
+    background-image: linear-gradient(rgb(2, 56, 2) rgb(0, 184, 98));
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    min-width: 400px;
+    max-width: 800px;
+    box-shadow: 0px 0px 3px 1px rgb(32, 194, 118);
+}
+
+article {
+    margin: auto;
+}
+
+h1 {
+   color:  rgb(4, 133, 62);
+   margin-left: 50px;
+}
+
+.a-h2 {
+    
+}

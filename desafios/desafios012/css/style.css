@@ -1,0 +1,110 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+:root {
+    --fonte1: verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', sans-serif;
+    --fonte3: 'Sriracha', cursive;
+    --cor1: black;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body { 
+    min-height: 100vh;
+    font-family: var(--fonte2);
+}
+
+/* Área de header*/
+.rnk-comp-header {
+    width: 100vw;
+    background-color: var(--cor1);
+    color: white;
+    padding: 50px 0px 25px 0px;
+    text-align: center;
+    font-family: var(--fonte1);
+}
+
+.rnk-comp-header h1{
+    font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 5vw;
+}
+
+.rnk-comp-header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.rnk-comp-header a:hover {
+    text-decoration: underline;
+}
+
+/*Área do body*/
+
+.rnk-comp-area-branca {
+    width: 100vw;
+    padding: 50px 30px;
+    line-height: 2em;
+    font-family: var(--fonte3);
+    font-size: 2em;
+}
+
+.rnk-comp-p {
+    padding-bottom: 2em;
+}
+
+.rnk-comp-background001 {
+    background: rgba(0, 0, 0, 0.521) url(/img/background001.jpg) no-repeat right center fixed;
+    background-size: cover;
+    color: white;
+    padding: 50px 30px;
+    line-height: 2em;
+    font-family: var(--fonte3);
+    font-size: 2em;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+}
+
+.rnk-comp-background001 p {
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.247);
+}
+
+.rnk-comp-background002 {
+    background: rgb(0, 0, 0) url(/img/background002.jpg) no-repeat right center fixed;
+    background-size: cover;
+    padding: 50px 30px;
+    line-height: 2em;
+    font-family: var(--fonte3);
+    color: white;
+    font-size: 2em;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+}
+
+.rnk-comp-background002 p {
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.247);
+}
+
+/*Área do Footer*/
+
+.rnk-comp-footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+.rnk-comp-footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: var(--fonte1);
+}
+
+.rnk-comp-footer a:hover {
+    text-decoration: underline;
+}

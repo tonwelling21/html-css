@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+    color: whitesmoke;
+}
+
+div {
+    width: 450px;
+    margin: auto;
+}
+
+h1, p {
+    color: aliceblue;
+}

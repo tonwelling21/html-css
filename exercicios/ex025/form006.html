@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exercícios de Formulário</h1>
+    <!--Sempre que formos enviar um arquivo de foto devemos usar o método POST-->
+    <form action="cadastro.php" method="post">
+        <div>
+            <label for="icor">Cor:</label>
+            <input type="color" name="cor" id="icor" value="">
+        </div>
+        <div>
+            <label for="isats">Nível de Satisfação:</label>
+            <input type="range" name="sats" id="isats" min="1" max="5" value="2">
+        </div>
+        <div>
+            <label for="ifoto">Anexe uma foto</label>
+            <input type="file" name="foto" id="ifoto">
+        </div>
+        <div>
+            <input type="submit" value="Enivar">
+            <input type="reset" value="Limpar">
+        </div>
+    </form>
+</body>
+</html>
